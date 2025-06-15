@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-14T22:18:56 IST" name="Suite" finished-at="2025-06-14T22:20:15 IST" duration-ms="78769">
+    <groups>
+    </groups>
+    <test started-at="2025-06-14T22:18:56 IST" name="ChromeTest" finished-at="2025-06-14T22:20:15 IST" duration-ms="78718">
+      <class name="basePackage.baseTestRunnerClass">
+        <test-method is-config="true" signature="DriverSetup(java.lang.String)[pri:0, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:18:56 IST" name="DriverSetup" finished-at="2025-06-14T22:18:58 IST" duration-ms="1904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method signature="ObjectCreations()[pri:-1, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:18:58 IST" name="ObjectCreations" finished-at="2025-06-14T22:18:59 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectCreations -->
+        <test-method signature="openUrl()[pri:0, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:18:59 IST" name="openUrl" finished-at="2025-06-14T22:19:00 IST" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="verificationOfEmptyAndInvalidUsernameOrPassword()[pri:1, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:19:00 IST" name="verificationOfEmptyAndInvalidUsernameOrPassword" finished-at="2025-06-14T22:19:15 IST" duration-ms="15100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfEmptyAndInvalidUsernameOrPassword -->
+        <test-method signature="loginFunctionalities()[pri:2, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:19:15 IST" name="loginFunctionalities" finished-at="2025-06-14T22:19:22 IST" duration-ms="6709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalities -->
+        <test-method signature="sortByFunctionalityVerification()[pri:3, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:19:22 IST" name="sortByFunctionalityVerification" finished-at="2025-06-14T22:19:48 IST" duration-ms="26719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByFunctionalityVerification -->
+        <test-method signature="addToCartverification()[pri:4, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:19:48 IST" name="addToCartverification" finished-at="2025-06-14T22:19:55 IST" duration-ms="6871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartverification -->
+        <test-method signature="cartPageFunctionalities()[pri:5, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:19:55 IST" name="cartPageFunctionalities" finished-at="2025-06-14T22:20:00 IST" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageFunctionalities -->
+        <test-method signature="checkoutPageFunction(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:20:01 IST" name="checkoutPageFunction" data-provider="userDataProviderMethod" finished-at="2025-06-14T22:20:08 IST" duration-ms="6716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[james]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bond]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[89002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageFunction -->
+        <test-method signature="overViewPage()[pri:7, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:20:08 IST" name="overViewPage" finished-at="2025-06-14T22:20:10 IST" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overViewPage -->
+        <test-method signature="finishPageFunctionalities()[pri:8, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:20:10 IST" name="finishPageFunctionalities" finished-at="2025-06-14T22:20:15 IST" duration-ms="5054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishPageFunctionalities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basePackage.baseTestRunnerClass@24269709]" started-at="2025-06-14T22:20:15 IST" name="tearDown" finished-at="2025-06-14T22:20:15 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basePackage.baseTestRunnerClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-06-14T22:18:56 IST" name="EdgeTest" finished-at="2025-06-14T22:20:15 IST" duration-ms="78769">
+      <class name="basePackage.baseTestRunnerClass">
+        <test-method is-config="true" signature="DriverSetup(java.lang.String)[pri:0, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:18:56 IST" name="DriverSetup" finished-at="2025-06-14T22:19:00 IST" duration-ms="3511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DriverSetup -->
+        <test-method signature="ObjectCreations()[pri:-1, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:00 IST" name="ObjectCreations" finished-at="2025-06-14T22:19:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectCreations -->
+        <test-method signature="openUrl()[pri:0, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:00 IST" name="openUrl" finished-at="2025-06-14T22:19:01 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="verificationOfEmptyAndInvalidUsernameOrPassword()[pri:1, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:01 IST" name="verificationOfEmptyAndInvalidUsernameOrPassword" finished-at="2025-06-14T22:19:15 IST" duration-ms="14945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOfEmptyAndInvalidUsernameOrPassword -->
+        <test-method signature="loginFunctionalities()[pri:2, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:15 IST" name="loginFunctionalities" finished-at="2025-06-14T22:19:22 IST" duration-ms="6754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionalities -->
+        <test-method signature="sortByFunctionalityVerification()[pri:3, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:22 IST" name="sortByFunctionalityVerification" finished-at="2025-06-14T22:19:49 IST" duration-ms="26713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByFunctionalityVerification -->
+        <test-method signature="addToCartverification()[pri:4, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:49 IST" name="addToCartverification" finished-at="2025-06-14T22:19:56 IST" duration-ms="6910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartverification -->
+        <test-method signature="cartPageFunctionalities()[pri:5, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:19:56 IST" name="cartPageFunctionalities" finished-at="2025-06-14T22:20:00 IST" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageFunctionalities -->
+        <test-method signature="checkoutPageFunction(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:20:01 IST" name="checkoutPageFunction" data-provider="userDataProviderMethod" finished-at="2025-06-14T22:20:08 IST" duration-ms="6716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[james]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bond]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[89002]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageFunction -->
+        <test-method signature="overViewPage()[pri:7, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:20:08 IST" name="overViewPage" finished-at="2025-06-14T22:20:10 IST" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overViewPage -->
+        <test-method signature="finishPageFunctionalities()[pri:8, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:20:10 IST" name="finishPageFunctionalities" finished-at="2025-06-14T22:20:15 IST" duration-ms="5040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishPageFunctionalities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:basePackage.baseTestRunnerClass@1e178745]" started-at="2025-06-14T22:20:15 IST" name="tearDown" finished-at="2025-06-14T22:20:15 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basePackage.baseTestRunnerClass -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
