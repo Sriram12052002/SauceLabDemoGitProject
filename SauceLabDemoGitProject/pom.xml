@@ -3,6 +3,26 @@
   <groupId>SauceDemoProject</groupId>
   <artifactId>SauceDemProj</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.5.2</version>
+          <configuration>
+          <suitexmlfiles>
+          <suitexmlfile>
+          testng.xml
+          </suitexmlfile>
+          </suitexmlfiles>
+         
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
   <dependencies><dependency>
    <groupId>net.minidev</groupId>
    <artifactId>accessors-smart</artifactId>
