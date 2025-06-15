@@ -12,7 +12,7 @@
   <test  name="EdgeTest">
   <parameter name="Browser" value="edge"></parameter>
     <classes> 
-          <class name="basePackage.baseTestRunnerClass"/>
+        <class name="basePackage.baseTestRunnerClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
