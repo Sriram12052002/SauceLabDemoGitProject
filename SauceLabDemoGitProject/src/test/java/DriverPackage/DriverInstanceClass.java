@@ -26,7 +26,8 @@ public void DriverSetup(String Browser) {
 	
 	if(Browser.equalsIgnoreCase("edge")) {
 		 EdgeOptions option = new EdgeOptions();
-		//option.addArguments("--headless");
+		 option.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe")	 ;
+		 //option.addArguments("--headless");
 		option.addArguments("--disable-extension");
 		option.addArguments("--disable-cookies");
 		option.addArguments("--incognito");
@@ -35,7 +36,7 @@ public void DriverSetup(String Browser) {
 	}
 	else {
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless");
+		//option.addArguments("--headless");
 		option.addArguments("--disable-extension");
 		option.addArguments("--disable-cookies");
 		option.addArguments("--incognito");
