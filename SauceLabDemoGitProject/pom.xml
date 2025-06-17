@@ -12,6 +12,8 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.5.2</version>
           <configuration>
+          <parallel>tests</parallel>
+    <threadCount>3</threadCount>
           <suiteXmlFiles>
           <suiteXmlFile>
 			testng.xml
@@ -19,10 +21,12 @@
           </suiteXmlFiles>
          
           </configuration>
+          
         </plugin>
       </plugins>
     </pluginManagement>
   </build>
+  
   <dependencies><dependency>
    <groupId>net.minidev</groupId>
    <artifactId>accessors-smart</artifactId>
