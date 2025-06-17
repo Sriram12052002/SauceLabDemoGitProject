@@ -14,7 +14,7 @@
           <configuration>
           <suitexmlfiles>
           <suitexmlfile>
-          ${xmlSuiteFileName}
+			testng.xml
           </suitexmlfile>
           </suitexmlfiles>
          
