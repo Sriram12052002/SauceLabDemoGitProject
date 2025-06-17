@@ -26,7 +26,7 @@ public void DriverSetup(String Browser) {
 	
 	if(Browser.equalsIgnoreCase("edge")) {
 		 EdgeOptions option = new EdgeOptions();
-		option.addArguments("--headless");
+		//option.addArguments("--headless");
 		option.addArguments("--disable-extension");
 		option.addArguments("--disable-cookies");
 		option.addArguments("--incognito");
